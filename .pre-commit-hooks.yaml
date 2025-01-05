@@ -1,0 +1,13 @@
+- id: php-code-sniffer-docker
+  name: PHP CodeSniffer (via docker)
+  description: test
+  entry: phpcs
+  language: docker
+  types: [php] 
+
+- id: php-code-sniffer-beautifier-docker
+  name: PHP CodeSniffer Beautifier (via docker)
+  description: test
+  entry: phpcbf
+  language: docker
+  types: [php] 
