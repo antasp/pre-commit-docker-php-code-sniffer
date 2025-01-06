@@ -4,10 +4,12 @@
   entry: phpcs
   language: docker
   types: [php] 
+  require_serial: true
 
 - id: php-code-sniffer-beautifier-docker
   name: PHP CodeSniffer Beautifier (via docker)
   description: test
   entry: phpcbf
   language: docker
-  types: [php] 
+  types: [php]
+  require_serial: true
